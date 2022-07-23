@@ -54,7 +54,7 @@ class LoginController extends Controller
             return response()->json(['error' => ['Email and Password are Wrong.']], 200);
         }
     }
-
+    #admin login
     public function adminLogin(Request $request)
     {
         $validator = Validator::make($request->all(), [
