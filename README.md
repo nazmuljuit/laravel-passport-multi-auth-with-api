@@ -1,5 +1,5 @@
 ### About this project:
-This is multi auth system for api based applications. It is build with laravel 8.
+This is multi auth system for api based applications. It is build with laravel 8 with passport.
 
 ### Installatin Process
 
@@ -7,6 +7,7 @@ This is multi auth system for api based applications. It is build with laravel 8
  2. configure .env file
  3. Run the command 'composer update'
  4. Run the command 'php artisaan migrate'
+ 5. Run the command 'php artisan serve'
 
  ### Call api with postman
 
