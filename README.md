@@ -10,13 +10,13 @@ This is multi auth system for api based applications. It is build with laravel 8
 
  ### Call api with postman
 
- localhost:8000/api/admin/login
- localhost:8000/api/admin/dashboard
- localhost:8000/api/admin/logout
+    localhost:8000/api/admin/login
+    localhost:8000/api/admin/dashboard
+    localhost:8000/api/admin/logout
 
- localhost:8000/api/user/login
- localhost:8000/api/user/logout
+    localhost:8000/api/user/login
+    localhost:8000/api/user/logout
 
  ### NB:
- use Bearer Token
+    use Bearer Token
 
