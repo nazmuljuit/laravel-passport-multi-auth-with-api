@@ -12,6 +12,22 @@ use Auth;
 
 class LoginController extends Controller
 {
+    
+    public function testApi()
+    {
+
+        $success =  'it is ok and go ahead!';
+
+        return response()->json($success, 200);
+    }
+
+    public function testUserApi()
+    {
+
+        $success =  'user!it is ok and go ahead!';
+
+        return response()->json($success, 200);
+    }
     public function userDashboard()
     {
         $users = User::all();

@@ -13,6 +13,7 @@ use App\Http\Controllers\LoginController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+Route::get('admin/test',[LoginController::class, 'testApi'])->name('testApi');
 
 Route::post('admin/login',[LoginController::class, 'adminLogin'])->name('adminLogin');
 Route::group( ['prefix' => 'admin','middleware' => ['auth:admin-api','scopes:admin'] ],function(){
